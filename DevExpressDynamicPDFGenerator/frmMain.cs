@@ -107,7 +107,7 @@ namespace DevExpressDynamicPDFGenerator
         /// </summary>
         private void btnDesigner_Click(object sender, EventArgs e)
         {
-            XtraReport1 r = new XtraReport1();
+            myXtraReport r = new myXtraReport();
             r.DataSource = FillDataset().Tables["Ticket"];
             r.LoadLayout(Application.StartupPath + "\\XtraReport1.repx");
             
@@ -121,7 +121,7 @@ namespace DevExpressDynamicPDFGenerator
         /// </summary>
         private void btnPreview_Click(object sender, EventArgs e)
         {
-            XtraReport1 r = new XtraReport1();
+            myXtraReport r = new myXtraReport();
             r.DataSource = FillDataset().Tables["Ticket"];
             r.LoadLayout(Application.StartupPath + "\\XtraReport1.repx");
 
@@ -134,7 +134,7 @@ namespace DevExpressDynamicPDFGenerator
         /// </summary>
         private void btnPDF_Click(object sender, EventArgs e)
         {
-            XtraReport1 r = new XtraReport1();
+            myXtraReport r = new myXtraReport();
             r.DataSource = FillDataset().Tables["Ticket"];
             r.LoadLayout(Application.StartupPath + "\\XtraReport1.repx");
 

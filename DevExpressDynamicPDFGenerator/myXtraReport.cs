@@ -6,7 +6,7 @@ using DevExpress.XtraReports.UI;
 
 namespace DevExpressDynamicPDFGenerator
 {
-    public partial class XtraReport1 : DevExpress.XtraReports.UI.XtraReport
+    public partial class myXtraReport : DevExpress.XtraReports.UI.XtraReport
     {
         private DevExpress.XtraReports.UI.DetailBand Detail;
         /// <summary>
@@ -27,7 +27,7 @@ namespace DevExpressDynamicPDFGenerator
             base.Dispose(disposing);
         }
 
-        public XtraReport1()
+        public myXtraReport()
         {
             InitializeComponent();
         }
